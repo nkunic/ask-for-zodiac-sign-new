@@ -96,102 +96,18 @@ function askUserForZodiacSign() {
   }
 
 
-  //if (userZodiacSignValue === userZodiacSigns.sign) {
-  // for (var i = 0; i < userZodiacSigns.length; i++) {
-  //   console.log(userZodiacSigns.sign[i]);
-  //   console.log(userZodiacSigns.description[i]);
-  // userZodiacSignDescription.innerText = userNameValue +
-  // ' ' +
-  // userZodiacSigns.sign +
-  // ' is a great sign. ' + userZodiacSigns.description;
-  //}
-  //}
+  if (userZodiacSignValue === userZodiacSigns.sign) {
+    for (var i = 0; i < userZodiacSigns.length; i++) {
+      console.log(userZodiacSigns.sign[i]);
+      console.log(userZodiacSigns.description[i]);
+    userZodiacSignDescription.innerText = userNameValue +
+    ' ' +
+    userZodiacSigns.sign +
+    ' is a great sign. ' + userZodiacSigns.description;
+    }
+  }
 
-  // if (userZodiacSignValue === 'aries') {
-  //   userZodiacSignDescription.innerText =
-  //     userNameValue +
-  //     ' ' +
-  //     userZodiacSignValue +
-  //     ' is a great sign. ' +
-  //     ariesDescription;
-  // } else if (userZodiacSignValue === 'taurus') {
-  //   userZodiacSignDescription.innerText =
-  //     userNameValue +
-  //     ' ' +
-  //     userZodiacSignValue +
-  //     ' is a great sign. ' +
-  //     taurusDescription;
-  // } else if (userZodiacSignValue === 'twins') {
-  //   userZodiacSignDescription.innerText =
-  //     userNameValue +
-  //     ' ' +
-  //     userZodiacSignValue +
-  //     ' is a great sign. ' +
-  //     twinsDescription;
-  // } else if (userZodiacSignValue === 'cancer') {
-  //   userZodiacSignDescription.innerText =
-  //     userNameValue +
-  //     ' ' +
-  //     userZodiacSignValue +
-  //     ' is a great sign. ' +
-  //     cancerDescription;
-  // } else if (userZodiacSignValue === 'lion') {
-  //   userZodiacSignDescription.innerText =
-  //     userNameValue +
-  //     ' ' +
-  //     userZodiacSignValue +
-  //     ' is a great sign. ' +
-  //     lionDescription;
-  // } else if (userZodiacSignValue === 'virgo') {
-  //   userZodiacSignDescription.innerText =
-  //     userNameValue +
-  //     ' ' +
-  //     userZodiacSignValue +
-  //     ' is a great sign. ' +
-  //     virgoDescription;
-  // } else if (userZodiacSignValue === 'libra') {
-  //   userZodiacSignDescription.innerText =
-  //     userNameValue +
-  //     ' ' +
-  //     userZodiacSignValue +
-  //     ' is a great sign. ' +
-  //     libraDescription;
-  // } else if (userZodiacSignValue === 'scorpio') {
-  //   userZodiacSignDescription.innerText =
-  //     userNameValue +
-  //     ' ' +
-  //     userZodiacSignValue +
-  //     ' is a great sign. ' +
-  //     scorpioDescription;
-  // } else if (userZodiacSignValue === 'sagittarius') {
-  //   userZodiacSignDescription.innerText =
-  //     userNameValue +
-  //     ' ' +
-  //     userZodiacSignValue +
-  //     ' is a great sign. ' +
-  //     sagittariusDescription;
-  // } else if (userZodiacSignValue === 'capricorn') {
-  //   userZodiacSignDescription.innerText =
-  //     userNameValue +
-  //     ' ' +
-  //     userZodiacSignValue +
-  //     ' is a great sign. ' +
-  //     capricornDescription;
-  // } else if (userZodiacSignValue === 'aquarius') {
-  //   userZodiacSignDescription.innerText =
-  //     userNameValue +
-  //     ' ' +
-  //     userZodiacSignValue +
-  //     ' is a great sign. ' +
-  //     aquariusDescription;
-  // } else if (userZodiacSignValue === 'pisces') {
-  //   userZodiacSignDescription.innerText =
-  //     userNameValue +
-  //     ' ' +
-  //     userZodiacSignValue +
-  //     ' is a great sign. ' +
-  //     piscesDescription;
-  // }
+
 }
 
-//askUserForZodiacSign();
+askUserForZodiacSign();
